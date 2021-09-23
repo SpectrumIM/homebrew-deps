@@ -6,14 +6,6 @@ class Log4cxxAT0110 < Formula
   sha256 "c316705ee3c4e5b919d3561d5f305162d21687aa6ae1f31f02f6cdadc958b393"
   license "Apache-2.0"
 
-  bottle do
-    sha256 cellar: :any, arm64_big_sur: "3608d04c6ad5e3d6d0186519f9ad31157add75820c8a651a77cdc89e77c81ff1"
-    sha256 cellar: :any, big_sur:       "33929bf44a188a1e7f16ae25a4b6495b63846640ed74a7d5f0c94db15151f5d0"
-    sha256 cellar: :any, catalina:      "ec9ff34b2c49aa9a48536f7d109da16cc32f9ce83e95ac1dc3efc8a982709908"
-    sha256 cellar: :any, mojave:        "23a968d63f8a181a73410cffcde5fd16fbacd5867453e7c0d7b0cb3815942bf8"
-    sha256 cellar: :any, high_sierra:   "11478b4f5ece24ec391954cc0538bb28f11ae6256a9499ca1e95103c2eb1d75c"
-  end
-
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
